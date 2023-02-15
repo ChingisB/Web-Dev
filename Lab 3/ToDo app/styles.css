@@ -1,0 +1,88 @@
+body{
+    background-color: #E6EBE0;
+    font-family: "roboto";
+}
+
+.header{
+    background-color: #B727E7;
+    font-family: "roboto";
+    font-size: 20px;
+    color: #E6EBE0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    height: 30px;
+}
+
+#textField{
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 10px;
+    border: 1px solid #CCD3C5;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #CCD3C5;
+    border-radius: 5px;
+    align-items: center;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-family: "roboto";
+    font-size: 16px;
+    background-color: white;
+}
+
+h1{
+    display: block;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+}
+
+.delete{
+    background: url("images/trash.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    border: none;
+}
+
+#add{
+    border-radius: 10px;
+    border: none;
+    background-color: #B727E7;
+    width: 100px;
+    font-family: "roboto";
+    color: #E6EBE0;
+}
+
+
+@font-face {
+    font-family: "roboto";
+    src: url("font/roboto_regular.ttf");
+}
+
+.chosen{
+    color: white;
+}
