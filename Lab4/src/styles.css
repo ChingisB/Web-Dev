@@ -1,0 +1,13 @@
+body{
+    font-family: 'neue';
+}
+
+button{
+    font-family: inherit;
+} 
+
+
+@font-face {
+    font-family: "neue";
+    src: url("src/assets/fonts/NeueMontreal-Regular.otf");
+}
