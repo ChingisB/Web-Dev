@@ -1,0 +1,28 @@
+<div class="product-card">
+  <div *ngIf="product.image">
+    <img
+      [src]="'assets/images/' + product.image"
+      width="100px"
+      height="130px"
+    />
+  </div>
+  <div class="product-header">
+    <a href="{{ product.link }}">
+      <h3>{{ product.name }}</h3>
+    </a>
+    <h5>Score: {{ product.rating }}</h5>
+    <button (click)="removeProduct(product.id)" class="delete-button">
+      Delete
+    </button>
+    <a [ngClass]="{'liked': like, 'like-button': true}" (click)="clickLike()">{{ product.likes }}</a> 
+  </div>
+  <p *ngIf="product.description">{{ product.description }}</p>
+  <button type="button" class="add-to-cart">
+    <a
+      href="https://telegram.me/share/url?url={{ product.link }}"
+      target="_blank"
+      >Share</a
+    >
+  </button>
+  
+</div>

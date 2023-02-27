@@ -1,0 +1,21 @@
+.header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.header-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

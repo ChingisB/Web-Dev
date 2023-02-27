@@ -1,0 +1,55 @@
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.product-card button{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    position: relative;
+    background-color: aquamarine;
+}
+
+
+.product-card p{
+    height: 300px;
+    text-align: justify;    
+}
+
+.product-card a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.product-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.delete-button{
+    width: 10px;
+    height: fit-content;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.like-button{
+    width: 40px;
+    height: 20px;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.liked{
+    background-color: blueviolet;
+    color: white;
+}

@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="items">
+    <div *ngFor="let category of categories">
+      <h4>
+        <a
+          [routerLink]="'/products'" [queryParams]="{categoryId: category.id}"
+          >{{ category.name }}</a
+        >
+      </h4>
+      <p>{{ category.description }}</p>
+    </div>
+  </div>
+</div>
