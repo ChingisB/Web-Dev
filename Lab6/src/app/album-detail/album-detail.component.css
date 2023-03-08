@@ -1,0 +1,31 @@
+.album-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.album-info .back-button{
+    align-self: flex-start;
+    width: 80px;
+    height: 30px;
+}
+
+.album-info button{
+    align-self: flex-start;
+    width: 80px;
+    height: 30px;
+}
+
+.input-field{
+    display: flex;
+    justify-content: space-between;
+}
+
+.album-info a{
+    margin-top: 20px;
+}

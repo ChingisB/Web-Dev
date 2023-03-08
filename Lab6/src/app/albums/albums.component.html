@@ -1,0 +1,11 @@
+<div class="main" >
+    <form class="input-field" novalidate>
+        <input type="text" #titleInput>
+        <button type="button" (click)="createAlbum(titleInput.value)">Save</button>
+    </form>
+    <div class="album-container">
+        <ng-container *ngFor="let album of albums">
+            <app-album [album]="album" (deleteAlbum)="deleteAlbum($event)"></app-album>
+        </ng-container>
+    </div>
+</div>

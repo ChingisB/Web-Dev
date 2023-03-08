@@ -1,0 +1,10 @@
+<div class="album-info">
+    <button class="back-button" (click)="backOnClick()">Back</button>
+    <h1>{{ album.title }}</h1>
+    <p>{{ user.name }}</p>
+    <form class="input-field" novalidate>
+        <input type="text" #titleInput>
+        <button type="button" (click)="saveOnClick(titleInput.value)">Save</button>
+    </form>
+    <a [routerLink]="'/albums/' + album.id + '/photos'">View photos</a>
+</div>

@@ -1,0 +1,32 @@
+.album-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    perspective: 1px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.album-header{
+    background-color: #7B7D9B;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.album-header h4 a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+
+.album-card p a{
+    text-decoration: none;
+    color: black;
+}
+
+.album-card button{
+    width: 75%;
+}

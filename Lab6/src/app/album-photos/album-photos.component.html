@@ -1,0 +1,7 @@
+<div class="album-container">
+    <button class="back-button" (click)="backOnClick()">Back</button>
+    <div class="album-card" *ngFor="let photo of photos">
+        <img src={{photo.url}} width="600px">
+        <h1>{{photo.title}}</h1>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+.album-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.album-container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-button{
+    align-self: flex-start;
+    width: 80px;
+    height: 30px;
+    margin-left: 300px  ;
+}
