@@ -1,1 +1,0 @@
-from views import CategoryView, ProductView, LoginView, SignupView

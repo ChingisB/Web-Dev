@@ -1,2 +1,0 @@
-from .admin_permission import AdminPermission
-from .staff_permission import StaffPermission
